@@ -9,7 +9,8 @@
 </head>
 <body>
 <form method = "post" action = "navigationServlet">
- 
+
+
 <table>
 <c:forEach items="${requestScope.allPresidents}" var="currentitem">
 <tr>
@@ -19,10 +20,12 @@
  </tr>
 </c:forEach>
 </table>
-
-<input type = "submit" value = "edit" name="doThisToItem">
-<input type = "submit" value = "delete" name="doThisToItem">
-<input type="submit" value = "add" name = "doThisToItem">
+<br>
+<hr>
+<input type = "submit" value = "edit" name="doThisToItem"> <br>
+<input type = "submit" value = "delete" name="doThisToItem"> <br>
+<input type = "submit" value = "add artifact for this President" name = "doThisToItem"> <br>
+<input type = "submit" value = "view President Artifacts" name = "doThisToItem">
 </form>
 <a href="index.html">Add a president</a>
 </body>

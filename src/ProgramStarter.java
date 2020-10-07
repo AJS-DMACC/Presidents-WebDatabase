@@ -79,9 +79,9 @@ public class ProgramStarter {
 			}
 		}
 
-		public static void main(String[] args) {
-			runController();
-		}
+		//public static void main(String[] args) {
+		//	runController();
+		//}
 
 		public static void runController() {
 			boolean goAgain = true;

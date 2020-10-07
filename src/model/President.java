@@ -50,4 +50,9 @@ public class President {
 	public String returnPresidentDetails( ) {
 		return Integer.toString(presidencyNumber) + ":" + name;
 	}
+	
+	@Override
+	public String toString() {
+		return "Name: " + name;
+	}
 }
